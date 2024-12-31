@@ -1,4 +1,5 @@
 # verve-doc-intelligence
+
 A gthub repo to implement Azure's document Intelligence AI service
 
 **Prerequisites**
@@ -17,7 +18,8 @@ The key and endpoint from the resource you create to connect your application to
 
 Set your key variable:
 
-  setx DI_KEY <yourKey>
+````
+setx DI_KEY <yourKey>
 
 Set your endpoint variable
 
@@ -25,8 +27,12 @@ Set your endpoint variable
 
 **Install dependencies**
 
+ ```python
   pip install azure-ai-documentintelligence==1.0.0b4
+````
 
 **Run the code**
 
-  python form_recognizer_quickstart.py
+```python
+ python form_recognizer_quickstart.py
+```
